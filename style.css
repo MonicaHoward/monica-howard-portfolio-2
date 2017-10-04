@@ -20,13 +20,20 @@ video {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-span {
+.intro-text {
+  text-align: center;
+}
+.title{
   background-color: rgba(178, 174, 174, 0.5);
   color: #653772;
   font-family: 'Syncopate', cursive;
-  font-size: 3em;
-  padding: 5px;
+  font-size: 4em;
+  line-height: 4;
+  padding: 1%;
   position: relative;
   text-align: center;
   z-index: 2;
+}
+.sub-title {
+  z-index: 3;
 }
