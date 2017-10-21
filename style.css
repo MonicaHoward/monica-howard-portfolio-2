@@ -10,12 +10,13 @@ body, html {
 }
 
 video {
+  background-attachment: fixed;
   width: auto;
   height: auto;
   min-width: 100vh;
   min-height: 100vh;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -31,7 +32,9 @@ video {
 .title{
   /*background-color: rgba(178, 174, 174, 0.5);*/
   background-color: rgba(255, 255, 255, 0.3);
-  color: #CFA5B4;
+  border: 10px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: #96526b;
   font-family: 'Syncopate', cursive;
   font-size: 4em;
   line-height: 4;
@@ -41,29 +44,51 @@ video {
   z-index: 2;
 }
 .sub-title {
-  border-bottom: 3px solid #CFA5B4;
-  color: #888;
+  border-bottom: 3px solid #96526b;
+  color: slategray;
   display: inline-block;
   font-family: 'Syncopate';
   font-size: 1.5em;
-  margin-top: -5%;
+  margin-top: -2%;
   margin-right: 15%;
   position: relative;
   float: right;
   z-index: 2;
 }
 .socials {
-  border: 1px solid black;
+  background: rgba(255, 255, 255, 0.3);
+  /*border: 1px solid black;*/
   float: left;
-  line-height: 20;
+  /*line-height: 2;*/
   position: relative;
   text-align: center;
   width: 100%;
   z-index: 2;
 }
-.social-icons {
-  line-height: 4;
-  padding: 10%;
+.social-icons svg {
+  /*line-height: 2;*/
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 3%;
+  fill: slategray;
+  margin: 5%;
+  padding: 3%;
   position: relative;
+  width: 100px;
+}
 
+/*.about {
+  background: white;
+  position: relative;
+  z-index: 2;
+}
+.about-text {
+  margin-top: 10%;
+}
+.about-text p {
+  font-size: 2em;
+  position: relative;
+  text-align: center;
+}*/
+footer {
+  height: 600px;
 }
