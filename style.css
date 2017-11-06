@@ -8,12 +8,11 @@ body, html {
   height: 100vh;
   overflow: hidden;
 }
-
 video {
   background-attachment: fixed;
   width: auto;
   height: auto;
-  min-width: 100vh;
+  min-width: 100vw;
   min-height: 100vh;
   overflow: hidden;
   position: fixed;
@@ -44,7 +43,7 @@ video {
   z-index: 2;
 }
 .sub-title {
-  border-bottom: 3px solid #96526b;
+  border-bottom: 3px solid #CFA5B4;
   color: slategray;
   display: inline-block;
   font-family: 'Syncopate';
@@ -75,20 +74,6 @@ video {
   position: relative;
   width: 100px;
 }
-
-/*.about {
-  background: white;
-  position: relative;
-  z-index: 2;
-}
-.about-text {
-  margin-top: 10%;
-}
-.about-text p {
-  font-size: 2em;
-  position: relative;
-  text-align: center;
-}*/
 footer {
   height: 600px;
 }
